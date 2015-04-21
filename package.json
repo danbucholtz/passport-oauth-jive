@@ -1,14 +1,14 @@
 {
-  "name": "passport-jive-oauth",
-  "version": "0.1.5",
+  "name": "passport-jive",
+  "version": "0.1.6",
   "description": "Jive (OAuth) authentication strategies for Passport.",
   "keywords": ["passport", "jive", "auth", "authn", "authentication", "identity"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/danbucholtz/passport-oauth-jive.git"
+    "url": "git://github.com/aldricHck/passport-jive.git"
   },
   "bugs": {
-    "url": "http://github.com/danbucholtz/passport-oauth-jive/issues"
+    "url": "http://github.com/aldricHck/passport-jive/issues"
   },
   "author": {
     "name": "Dan Bucholtz",
@@ -17,12 +17,12 @@
   },
   "licenses": [ {
     "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
+    "url": "http://www.opensource.org/licenses/MIT"
   } ],
   "main": "./lib/passport-jive-oauth",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-oauth": "~0.1.4"
+    "passport-oauth": "~0.1.x"
   },
   "devDependencies": {
     "vows": "0.6.x"
